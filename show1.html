@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/Mypage.css">
+    <script src="js/jquery.page.1.10.js"></script>
+</head>
+<body>
+<div class="showPage"></div>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script>
+    $(".showPage").createPage({
+        pageCount:6,//总页数
+        limit:2,
+        currentTarget :1,//当前页
+        collback:function (p) {
+            console.log(p);
+        }
+    });
+</script>
+</body>
+</html>
