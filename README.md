@@ -11,8 +11,8 @@
 
 #### 调用接口方法
 
-
 $(".showPage").createPage({
+
         pageCount:6,//总页数
         limit:2,
         currentTarget :1,//当前页
