@@ -9,7 +9,7 @@
 ### 用法
 `<div class="showPage"></div>`
 
-调用接口方法
+####调用接口方法
 
 $(".showPage").createPage({
 
