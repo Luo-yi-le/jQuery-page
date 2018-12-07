@@ -7,7 +7,7 @@
 使用node.js测试util.js通过
 
 ### 用法
-<div class="showPage"></div>
+`<div class="showPage"></div>`
 
 调用接口方法
 
